@@ -1,0 +1,24 @@
+categoria=gerente
+bonoPresentismo=normal
+BonoResultados=porcentaje
+Faltas=0
+
+def sueldoPepe(categoria,bonoPresentismo,bonoResultado,fatas):
+    
+    sueldo = categoria+bonoResultado+bonoPresentismo
+    print(sueldo)
+    
+    gerente=15000
+    cadete=20000
+    
+def bonoPresentismo(Faltas):   
+    normal=2000
+    if Faltas > 1:
+        normal=1000
+        
+def bonoResultado(categoria):
+    porcentaje = categoria *0.10
+    montofijo=800
+    nuno=0
+    
+    
